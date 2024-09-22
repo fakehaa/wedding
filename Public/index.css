@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'pearl';
+    src: url('fonts/tan_pearl.otf');
+}
+@font-face {
+    font-family: 'lora';
+    src: url('fonts/Lora-Regular.ttf');
+}
+@font-face {
+    font-family: 'mon';
+    src: url('fonts/monsieur.ttf');
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #fff;
+}
+
+.invitation-container { 
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    
+    background: url('imgs/background_phone.png') no-repeat center center;
+    background-size: cover; 
+}
+
+.header-section {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    padding-top: 30px;
+    
+}
+
+.title{
+    font-family: 'mon';
+    color: #000000;
+    font-size: 40pt !important;
+    
+}
+.sub{
+    font-family: 'lora';
+    font-size: 18pt !important;
+    margin: 5px 0;
+}
+.name{
+    font-family: 'pearl';
+    font-size: 22pt !important;
+   
+}
+.req{
+    font-family: 'lora';
+}
+.gr{
+    font-family: 'pearl';
+    padding-top: 5px;
+    
+}
+.and{
+    font-size: 20pt !important;
+    font-family: 'pearl';
+}
+.desc{
+    font-style: italic;
+    font-family: 'lora';
+    font-size: 12pt !important;
+}
+.date p{
+    font-family: 'lora';
+    font-size: 12pt !important;
+    font-weight: bold;
+}
+.img{
+    max-width: 900px !important;
+}
+#headD{
+    font-size: 16pt !important;
+}
+.content-section {
+    text-align: center;
+    line-height: 1.6;
+}
+.map a{
+    text-decoration: none;
+    color: #000000;
+}
+.map a:hover{
+    color: rgb(106, 72, 31);
+}
+.content-section .date {
+    margin-top: 30px;
+    font-size: 16px;
+}
+
+.footer-section {
+    text-align: center;
+    margin-top: 40px;
+    font-size: 20pt;
+}
+
+.footer-section p {
+    font-size: 14px;
+    margin: 0;
+    padding-top: 20px;
+    font-size: 14pt !important;
+}
+.rsvp-form {
+    margin-top: 20px;
+    text-align: left;
+    font-family: 'lora', sans-serif;
+    font-weight: bold;
+}
+
+.rsvp-form label {
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.rsvp-form input[type="text"] {
+    width: calc(100% - 110px);
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.rsvp-form input[type="radio"] {
+    margin-right: 5px;
+    margin-left: 20px;
+}
+
+.rsvp-form button {
+    padding: 10px 20px;
+    background-color: rgb(106, 72, 31); 
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: 'lora', sans-serif;
+}
+
+.rsvp-form button:hover {
+    background-color: #C70039; 
+}
+.logo-container {
+    display: flex;
+    align-items: center; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background: #2c4114;
+    width: 100%;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #2c4114;
+    padding: 20px;
+}
+
+.logo-image {
+    max-width: 100px; 
+    margin-right: 20px; 
+}
+
+.best-wishes-text {
+    font-family: 'pearl'; 
+    font-size: 18pt;
+    color: #fff; 
+}
+
+

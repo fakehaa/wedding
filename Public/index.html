@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Invitation</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="/imgs/favicon.ico">
+    
+</head>
+<body>
+    <div class="invitation-container">
+
+        <div class="header-section">
+            <h3>بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ</h3>
+            <h1 class="title">Ansari & Nadeem</h1>
+            <br>
+            <p class="sub">25.12.24</p>
+        </div>
+        <div class="content-section">
+            <p class="name">Mr. & Mrs Shahid Ansari</p>
+            <p class="req">Request the pleasure of your company at the barat of our beloved son</p>
+            <h2 class="gr">Saad Shahid Saleem Ansari</h2>
+            <p class="and">&</p>
+            <h2 class="gr">Momina Nadeem</h2>
+            <p class="desc">daughter of Mr. & Mrs. Nadeem Zia</p>
+            <div class="date">
+                <img class="img" src="imgs/cal.png">
+                <p id="headD">Date</p>
+                <p>25.12.2024</p>
+                <img class="img" src="imgs/clock.png">
+                <p id="headD">Time</p>
+                <p>1:00 PM</p>
+                <img class="img" src="imgs/loco.png">
+                <p>Location</p>
+          <p class="map"><a href='https://maps.app.goo.gl/hyu3JukpHeA6oc5C8'> Crystal grand Lahore </a></p>
+          <iframe class="map-g" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3404.6172075902537!2d74.24182357588357!3d31.424671074257986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391901d37fa032e7%3A0xde7a75f2013edbde!2sCrystal%20Grand!5e0!3m2!1sen!2sae!4v1726987435583!5m2!1sen!2sae" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+        <div class="footer-section">
+            <p class="desc">Your presence and wishes will make this day memorable!</p>
+            <p class="desc">Inshallah</p>
+            <p class="desc"><b>Please RSVP: +03225111852 </b></p>
+        </div>
+        <form class="rsvp-form" action="/submit-rsvp" method="post">
+            <!-- Form fields -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required><br>
+        
+            <label for="greetings">Greetings:</label>
+            <input type="text" id="greetings" name="greetings" value="Send your greetings" 
+                   onfocus="if(this.value=='Send your greetings')this.value='';" required><br>
+        
+            <label>Will You Attend:</label>
+            <input type="radio" id="attend_yes" name="attendance" value="yes" required>
+            <label for="attend_yes">Yes</label>
+        
+            <input type="radio" id="attend_no" name="attendance" value="no" required>
+            <label for="attend_no">No</label><br>
+        
+            <button type="submit">Submit</button>
+        </form>
+
+        
+    </div>
+    <div class="logo-container">
+        <img src="imgs/Saad_momi.png" alt="Logo" class="logo-image">
+        <p class="best-wishes-text">Best, Fouzia Shahid & Shahid Saleem Ansari</p>
+    </div>
+</body>
+
+</html>
